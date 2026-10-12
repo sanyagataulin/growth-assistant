@@ -1,0 +1,31 @@
+# Секреты и локальные настройки (пример — .env.example остаётся в репозитории)
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Локальные базы и артефакты проверок
+*.db
+*.sqlite3
+
+# Node / сборка фронтенда
+node_modules/
+frontend/dist/
+
+# Логи
+*.log
+
+# IDE и редакторы
+.idea/
+.vscode/
+
+# ОС
+.DS_Store
+Thumbs.db
+desktop.ini
